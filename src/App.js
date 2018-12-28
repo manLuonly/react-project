@@ -8,8 +8,9 @@ class App extends React.Component {
     return(
       <Router>
         <Switch>
-        <Route path="/home" component={Home}></Route>
+          {/* 当匹配不上city时,就匹配根 */}
         <Route path="/city" component={City}></Route>
+        <Route path="/" component={Home}></Route>
         </Switch>
       </Router>
     )

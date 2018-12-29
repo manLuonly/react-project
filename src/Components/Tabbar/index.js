@@ -7,7 +7,7 @@ class Tabbar extends Component {
   render() {
     // 接收从Home传递过来的值
     let tabs = this.props.tabs;
-    console.log(tabs)
+    // console.log(tabs)
     return (
       <ul className="tab-bar">
         {

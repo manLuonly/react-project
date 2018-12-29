@@ -40,7 +40,7 @@ class HomeFilms extends Component {
           >
             {
               this.state.banner.map(item => (
-                <img key={item.bannerId} src={item.imgUrl}></img>
+                <img key={item.bannerId} src={item.imgUrl} alt=""></img>
               ))
             }
           </Carousel>
@@ -76,7 +76,7 @@ class HomeFilms extends Component {
                       <span className="grade">7.2</span>
                     </div>
                     <div>
-                      <span className="label">主演：哈哈哈哈哈哈</span>
+                      <span className="label">主演：苦逼程序猿</span>
                     </div>
                     <div>
                       <span className="label">美国 | 100分钟</span>
